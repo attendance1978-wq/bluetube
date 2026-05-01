@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: black;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: red;
+  font-weight: bold;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #222;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  background: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  padding: 10px;
+}
+
+#videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background: #181818;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  padding: 8px;
+  font-size: 13px;
+}
